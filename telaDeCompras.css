@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    
+}
+
+body {
+   display: flex;  
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 100vw;
+   height: 100vw;
+}
+
+main {   
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#button-menu {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+#button-menu:hover {
+    color: rgb(244, 0, 216);
+    cursor: pointer;
+}
+
+#logo {
+    width: 80px;
+}
+
+.conta {
+    color: rgb(247, 247, 247);
+}
+
+.pesquisa{
+    justify-content: center;
+}
+
+.pesquisa > #caixaPesquisa{
+    width: 600px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container-barraLateral {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 320px;
+    left: -320px;
+    transition: left 0.5s ease;
+    box-shadow: 0px 0px 30px black;
+}
+
+#closeMenuNav{
+    margin: 20px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+}
+
+#closeMenuNav:hover{
+    cursor: pointer;
+    color: rgb(244, 0, 216);
+}
+
+.container-barraLateral button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+#btnMinhaConta, #btnMeusDados, #btnMeusPedidos, #btnCadastro{
+    color: white;
+    font-size: 15px;
+    margin: 10px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+#btnMinhaConta i, #btnMeusDados i, #btnMeusPedidos i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#btnLogin {
+    background-color: tomato;
+    margin: 20px 30px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#btnMinhaConta:hover, #btnCadastro:hover, #btnMeusDados:hover, #btnMeusPedidos:hover {
+    transform: scale3d(1.05, 1.05, 1);
+    cursor: pointer;
+    
+}
+.container {
+    width: 100%;
+    justify-content: center;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.selecionarCores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px 0px;
+}
+
+.selecionarCores img {
+    width: 60px;
+    margin: 5px;
+}
+
+.selecionarCores #botao-cores {
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.selecionarCores #botao-cores:hover {
+    transform: scale3d(1.02, 1.02, 1);
+}
+
+.t-b {
+    padding: 30px 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cores {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-cores img{
+    width: 100px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.container-cores a:hover{
+    cursor: pointer;
+}
+
+.container-cores img:hover{
+    border: 10px solid rgb(136, 0, 255);
+    transform: scale3d(1.02, 1.02, 1);
+}
+
+.container-cores .btnOpcao{
+    background: none;
+    border: none;
+}
+
+.container-cores .btnOpcao:hover{
+    cursor: pointer;
+}
+
+.container-img {
+    margin: 30px;
+}
+
+.container-img img{
+    width: 400px;
+    height: 400px;
+}
+
+.container-esq {
+    width: 700px;
+}
+
+.container-esq p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.precos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 15px;
+   
+}
+
+.precos #antes {
+    font-size: 80%;
+    font-weight: bold;
+    color: rgb(202, 0, 0);
+}
+
+.precos #depois {
+    font-size: 250%;
+    font-weight: bold;
+    color: rgb(0, 136, 23);
+}
+
+#arm-int {
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container-botao button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    font-weight: bold;
+}
+
+.container-botao button:hover{
+    background-color: rgb(0, 91, 0);
+}
+
+.versoes {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.versoes p {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    transition: top 1s ease;
+    font-size: 11px;
+    transition: transform 0.1s ease;
+}
+
+.versoes p:hover {
+    position: relative;
+    background-color: rgba(0, 51, 255, 0.3);
+    transition: 0.3s;
+    transform: translate(0%, -5%);
+    cursor: pointer;
+    
+}
+
+
+.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    padding: 30px;
+    display: flex;
+    margin-top: 10px;
+    width: 730px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.box span{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.inputAndButton {
+    align-items: center;
+    display: flex;
+}
+
+.inputAndButton div {
+    padding-inline-start: 30px;
+}
+
+.inputAndButton #botao{
+    background-color: rgba(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.inputAndButton #botao:hover{
+    background-color: rgba(44, 0, 44, 0.);
+}
+
+.inputAndButton #cep{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+table {
+    margin-top: 20px;
+    width: 90%;
+  }
+  
+th {
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 5px solid white;
+  }
+
+#tdOne {
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.containerInfos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.containerInfos h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+
+
+
