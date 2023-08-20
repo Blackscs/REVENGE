@@ -34,11 +34,7 @@
 
     <nav>
 
-        <div class="container-barraLateral">
-
-            <div class="container-bntCloseMenuNav">
-                <button id="closeMenuNav"><i class='bx bx-menu'></i></button>
-            </div>
+        <div class="container-nav">
         
             <a href="Login.html" id="btnMinhaConta">
                 <i class='bx bxs-home' ></i>
@@ -54,24 +50,23 @@
                 <i class='bx bx-cart' ></i>
                 <span>Meus Pedidos</span>
             </a>
-
-            <button id="btnLogin">
-                <a href="Login.html">LOGIN</a>
-            </button>
-
-            <button id="btnCadastro">
-                <a href="Signin.html">CADASTRO</a>
-            </button>
+          
+            <a href="login.html" id="btnMeusPedidos">
+                <i class='bx bx-cart' style="color: black;" ></i>
+                <span>Meus Pedidos</span>
+            </a>
 
         </div>
 
     </nav>
-
-    
     
     <main>
 
-        <h1>Destaques</h1>
+        <div id="banner">
+            <img src="IMAGENS/banner.png" alt="banner">
+        </div>
+
+        <h1 id="title-destaques">Destaques</h1>
 
         <div class="containerr">
         <button class="arrow-left control" aria-label="Previous image">◀</button>
@@ -80,7 +75,7 @@
                 <div class="gallery">
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -89,7 +84,7 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -98,7 +93,7 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -107,7 +102,7 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -116,7 +111,7 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -125,7 +120,7 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -134,97 +129,83 @@
                     </div>
                     <div class="item current-item">
                         <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                            <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                             <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                             <div><h2 id="preco-promo">R$ 5.766</h2></div>
                             <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                             <button id="botao">Comprar agora</button>
                         </a>
                     </div>
-                    <div class="item current-item">
-                        <a href="telaDeCompras.html" class="elementos">
-                            <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
-                            <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
-                            <div><h2 id="preco-promo">R$ 5.766</h2></div>
-                            <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
-                            <button id="botao">Comprar agora</button>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
 
-        <h1>NOTEBOOKS</h1>
+        <div class="h1">
+            <h1>SMARTPHONES</h1>
+        </div>
 
         <section class="container">
 
             <div class="container-catalogo">
                 
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div id="elementos-barra-cima">
+                        <div>
+                            <p>RESTAM</p>
+                            <p>25</p>
+                        </div>
+                    </div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                     <button id="botao">Comprar agora</button>
                 </a>
-                
-                
                 <a href="telaDeCompras.html" class="elementos">
-                    <div class="container-img"><img style="width: 200px;" src="IMAGENS/Mackbook air.png" alt="Gaming 3i"></div>
+                    <div class="container-img"><img src="IMAGENS/Iphone-14-pro-max-preto.png" alt="Gaming 3i"></div>
                     <p>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM)</p>
                     <div><h2 id="preco-promo">R$ 5.766</h2></div>
                     <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
@@ -235,73 +216,77 @@
 
         </section>
        
-
-        <h1>SMARTPHONES</h1>
+        <div class="h1">
+            <h1>SMARTPHONES</h1>
+        </div>
+        
         <section class="container-catalogo">
                 
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="info-unid"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
             <a href="telaDeCompras.html" class="elementos">
-                <div class="container-img"><img style="width: 200px;" src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
+                <div class="container-img"><img src="IMAGENS/IphonePreto.png" alt="Iphone 14 Pro Max"></div>
                 <p>Apple iPhone 14 Pro Max 128GB Branco 6,7” 48MP</p>
                 <div><h2 id="preco-promo">R$ 5.766</h2></div>
                 <p id="desc"><b>10x</b> de <b>R$ 576,60</b></p>
                 <button id="botao">Comprar agora</button>
             </a>
+           
             
         </section>
 
     </main>
 
 
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
