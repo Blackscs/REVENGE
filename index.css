@@ -174,12 +174,66 @@ nav {
     padding: 10px;
     border-radius: 6px;
     background-color: white;
+    font-size: 10px;
+    justify-content: center;
+    
 }
 
-#unid-restante {
+#elementos-barra-cima{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+}
+
+#elementos-barra-cima .box{
     display: flex;
     flex-direction: column;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    justify-content: center;
+    width: 21%;
 }
+
+#elementos-barra-cima #container-desconto{
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+#elementos-barra-cima li{
+    list-style: none;
+    line-height: 1.2;
+}
+
+#txtRestam{
+    font-size: 0.9em;   
+}
+
+#txt25{
+    font-weight: bold;
+    font-size: 1em;   
+}
+
+#txtUnid{
+    font-size: 0.9em;
+}
+
+#txtSeta{
+    font-size: 1.3em
+}
+
+#desconto {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
 
 .elementos:hover{
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.47);
@@ -191,17 +245,25 @@ nav {
 .elementos .container-img {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.elementos-barra-baixo{
+    margin-top: 5px;
 }
 
 .elementos .container-img img{
-    width: 100%;
-    max-width: 160px;
+   max-height: 12rem;
 }
 
 .elementos p {
-    font-size: 10px;
-    color: black;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+    font-size: 0.9rem;
     margin: 15px 0px 5px 5px;
+    overflow: hidden;
+    max-height: 4.3em;
 }
 
 .elementos .container-botao {
@@ -210,19 +272,19 @@ nav {
 }
 
 .elementos #preco-promo {
-    font-size: 15px;
+    font-size:2em;
     font-weight: bold;
     margin: 0px 5px;   
     color: rgb(8, 123, 0);  
 }
 
 .elementos #desc {
-    font-size: 11px;
+    font-size: 1.2em;
     margin: 0px 0px 12px 5px; 
     color: black;   
 }
 
-.elementos  #botao { 
+.elementos #botao { 
     background-color: rgb(254, 24, 24);
     border: none;
     color: white;
@@ -230,6 +292,7 @@ nav {
     font-size: 12px;
     border-radius: 5px;
     font-weight: bold;
+    width: 100%;
 }
 
 #botao:hover {
